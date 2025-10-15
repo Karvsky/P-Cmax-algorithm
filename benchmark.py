@@ -1,6 +1,6 @@
 import random
 
-def generuj_dane_automatycznie(max_procesorow=8, max_procesow=30, max_czas_zadania=100, nazwa_pliku="dane.txt"):
+def generuj_dane_automatycznie(max_procesorow=16, max_procesow=1000, max_czas_zadania=100, nazwa_pliku="dane.txt"):
     liczba_procesorow = random.randint(2, max_procesorow)
     liczba_procesow = random.randint(liczba_procesorow + 1, max_procesow)
     czasy_wykonania = [random.randint(1, max_czas_zadania) for _ in range(liczba_procesow)]
