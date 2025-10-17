@@ -19,5 +19,5 @@ def answer():
         przydzial_czasowy[index_minimalna] += czasy[i]
         przydzial_elementowy[index_minimalna].append(czasy[i])
 
-    return przydzial_elementowy
+    return max(przydzial_czasowy), przydzial_elementowy
 
