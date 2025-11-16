@@ -1,4 +1,4 @@
-def wczytaj_dane_z_pliku(nazwa_pliku="dane.txt"):
+def wczytaj_dane_z_pliku(nazwa_pliku="m10n200.txt"):
     lista_danych = []
     try:
         with open(nazwa_pliku, 'r') as plik:
